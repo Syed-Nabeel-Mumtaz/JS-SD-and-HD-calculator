@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wwwFlix.css">
+    <title>wwwFlix Task</title>
+</head>
+
+<body>
+    <h1>wwwFlix Task</h1>
+    <!-- Add a form which has… -->
+    <form id="form">
+        <div class="field">
+            <label for="friendsSD">Number of friends to give SD plans: </label>
+            <input class="input" id="friendsSD" type="number" min="0" value="0" required autofocus>
+        </div>
+        <div class="field">
+            <label for="monthsSD">Number of months to provide SD plans to each friend: </label>
+            <input class="input" id="monthsSD" type="number" min="0" value="0" required autofocus>
+        </div>
+        <div class="field">
+            <label for="friendsHD">Number of friends to give HD plans: </label>
+            <input class="input" id="friendsHD" type="number" min="0"  value="0" required autofocus>
+        </div>
+        <div class="field">
+            <label for="monthsHD">Number of months to provide HD plans to each friend: </label>
+            <input class="input" id="monthsHD" type="number" min="0" value="0" required autofocus>
+        </div>
+    <!-- …a submit button -->
+         <button>Submit</button>
+    </form>
+    <p id="output"></p>
+    <!-- Add a link to .js file -->
+    <script src="wwwFlix.js"></script>
+</body>
+
+</html>
